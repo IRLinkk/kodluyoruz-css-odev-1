@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(243, 222, 186);
+}
+
+li {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(206, 89, 89);
+    text-align: center;
+    padding: 12px 15px;
+    margin: 0px 1px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    /* border: 1px solid black; */
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(186, 205, 219);
+
+}
+
+.p-center {
+    text-align: center;
+}
+
+.text-purple {
+    color: rgb(103, 93, 80);
+}
