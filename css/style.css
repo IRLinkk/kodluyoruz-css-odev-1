@@ -15,19 +15,23 @@ li a {
     color: rgb(206, 89, 89);
     text-align: center;
     padding: 12px 15px;
-    margin: 0px 1px;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
     /* border: 1px solid black; */
 
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: rgb(186, 205, 219);
+    border: 1px solid black;
 
 }
 
@@ -35,6 +39,16 @@ ul {
     text-align: center;
 }
 
-.text-purple {
-    color: rgb(103, 93, 80);
+.text-color1 {
+    color:darkblue ;
+    background-color:rgba(127, 255, 212, 0.6);
+    border: 4px double black;
+}
+
+.text-color2 {
+    color:darkcyan;
+}
+
+.text-color3 {
+    color: rgba(76, 0, 130, 0.7);
 }
